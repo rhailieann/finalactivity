@@ -1,11 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>finalactivity</title> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head> 
+
+<style> 
+p 
+    { 
+
+        font-family:'Courier New', Courier, monospace; 
+
+        font-size: 12; 
+
+        color:purple; 
+
+        padding:2px; 
+
+    } 
+</style> 
+
+<body class="text-center mx-20 space-y-2"> 
+
+    <header><br> 
+    <h1 class="text-3xl font-bold">Tailwind CSS Image Filters</h1> 
+    </header> 
+
+       <section class="p-2 py-5 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-center max-w-4xl mx-auto">
+            <div class="p-4 border rounded-lg shadow-xl"> 
+            <img src="/shinobu.jpg" class="mb-2 object-contain"> 
+            <p><b>Normal</b></p> 
+            </div> 
+
+            <div class="p-4 border rounded-lg shadow-xl"> 
+            <img src="/shinobu.jpg" class="grayscale mb-2" width="auto"> 
+            <p><b>Grayscale</b></p> 
+            </div> 
+
+            <div class="p-4 border rounded-lg shadow-xl"> 
+            <img src="/shinobu.jpg" class="blur-sm mb-2" width="auto"> 
+            <p><b>Blur</b></p> 
+            </div> 
+
+            <div class="p-4 border rounded-lg shadow-xl"> 
+            <img src="/shinobu.jpg" class="brightness-50 mb-2" width="auto"> 
+            <p><b>Brightness</b></p> 
+            </div> 
+
+            <div class="p-4 border rounded-lg shadow-xl"> 
+            <img src="/shinobu.jpg" class="contrast-200 mb-2" width="auto"> 
+            <p><b>Contrast</b></p> 
+            </div> 
+
+            <div class="p-4 border rounded-lg shadow-xl"> 
+            <img src="/shinobu.jpg" class="sepia mb-2" width="auto"> 
+            <p><b>Sepia</b></p> 
+            </div> 
+
+       </section>        
+
+</body> 
+</html> 
